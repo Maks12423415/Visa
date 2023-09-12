@@ -1,38 +1,43 @@
-#body{
-    margin: 0px;
-    padding: 0px;
+#body {
+  margin: 0px;
+  padding: 0px;
 }
 
-#full{
-    background-color: gray;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 50vh 50vh;
-    gap: 100px;
-    
-   
+#full {
+  background-color: gray;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 50vh 50vh;
+  gap: 100px;
 }
 
-#info{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#menu{
-    background-color: aquamarine;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+#menu {
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
-#karta{
-    background-color: aqua;
-    height: 250px;
-    width: 500px;
-    border-radius: 10px ;
-    display: flex;
-    
+#karta {
+  background-color: aqua;
+  height: 250px;
+  width: 500px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
+#h1 {
+  align-content: center;
+}
+
+#h2 {
+  align-content: center;
+}
