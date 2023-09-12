@@ -26,18 +26,20 @@
 }
 
 #karta {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 33, 3vh;
   background-color: aqua;
   height: 250px;
   width: 500px;
   border-radius: 10px;
+}
+
+#numer {
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
 }
 
-#h1 {
-  align-content: center;
-}
-
-#h2 {
-  align-content: center;
+#imie {
+  display: flex;
 }
