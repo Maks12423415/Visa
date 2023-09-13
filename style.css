@@ -4,11 +4,11 @@
 }
 
 #full {
-  background-color: gray;
+  background-color: purple;
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 50vh 50vh;
-  gap: 100px;
+  
 }
 
 #info {
@@ -18,28 +18,63 @@
 }
 
 #menu {
-  background-color: aquamarine;
+  background-color: rgb(56, 42, 42);
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
+  border-radius: 5px;
 }
 
 #karta {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 33, 3vh;
-  background-color: aqua;
-  height: 250px;
+  grid-template-rows: 10.1vh; 
+  
+  height: 300px;
   width: 500px;
   border-radius: 10px;
+  border: black solid;
+  background-image: url('https://wykop.pl/cdn/c3201142/comment_lCCETisKK5crkpfEFg8o8cnUaJGSSdWY.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #numer {
   display: flex;
   align-items: center;
+  justify-content: center;
+  color: aqua;
 }
 
 #imie {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  color: aqua;
 }
+
+#logo {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: aqua;
+}
+
+#dat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tło{
+  border-radius: 50px;
+  border: black solid 5px;
+}
+
+.input{
+  border-radius: 5px;
+  border: black solid 2px;
+}
+

@@ -11,22 +11,19 @@
       <div id="info">
         <div id="karta">
           <div id="logo">
-            <img
-              src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fw7.pngwing.com%2Fpngs%2F371%2F4%2Fpng-transparent-visa-debit-card-credit-card-logo-mastercard-visa-text-trademark-logo.png&tbnid=1rYBlrYthr7msM&vet=12ahUKEwiygNep5KWBAxXPGBAIHZZ9AScQMygDegQIARBP..i&imgrefurl=https%3A%2F%2Fwww.pngwing.com%2Fen%2Fsearch%3Fq%3Dvisa&docid=SF322v5TtW70uM&w=920&h=607&q=visa%20logo%20png&client=opera-gx&ved=2ahUKEwiygNep5KWBAxXPGBAIHZZ9AScQMygDegQIARBP"
-              alt="visa"
-              width="100px"
-              height="100px"
-            />
+            <h1>mBank</h1>
+            <img src="https://w7.pngwing.com/pngs/371/4/png-transparent-visa-debit-card-credit-card-logo-mastercard-visa-text-trademark-logo.png" alt="" width="50px" height="50px">
           </div>
           <div id="numer">
-            <h1 id="h1"></h1>
+            <h1 id="h1">**** **** **** ****</h1>
           </div>
-          <div id="dat"><h3 id="h3"></h3></div>
-          <div id="imie"><h2 id="h2"></h2></div>
+          
+          <div id="imie"><h2 id="h2"></h2><h3 id="h3">****</h3></div>
         </div>
       </div>
       <div id="menu">
         <input
+        class="input"
           placeholder="Numer karty..."
           id="inumbers"
           maxlength="16"
@@ -34,15 +31,29 @@
           oninput="numbers()"
         />
         <input
+        class="input"
           placeholder="Imię i nazwisko..."
           oninput="names()"
           id="names"
           type="text"
         />
-        <input placeholder="Data..." id="data" oninput="date()" type="date" />
-        <input type="radio" />
-        <input type="radio" />
-        <input type="radio" />
+        <input 
+        class="input"
+         placeholder="Data..." 
+         id="data" 
+         oninput="date()" 
+         type="month"/>
+        
+        
+        <div id="tlo1"><input  onclick="background()" id="button1" name="tlo"  type="radio" />
+        <img class="tło" src="https://wykop.pl/cdn/c3201142/comment_lCCETisKK5crkpfEFg8o8cnUaJGSSdWY.jpg" alt="" width="50px" height="50px">
+        </div>
+        <div id="tlo2"><input  onclick="background1()" id="button2" name="tlo" type="radio" />
+        <img class="tło" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMo2fPC1FD2Mn1wMIUsmfxayr1-nrKqdH7RQ&usqp=CAU" alt="" width="50px" height="50px">
+        </div>
+        <div id="tlo3"><input  onclick="background2()" id="button3" name="tlo" type="radio" />
+        <img class="tło" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2NVH8P-nREd5-tIuSXleL6UD-TpxcsM8xiQ&usqp=CAU" alt="" width="50px" height="50px">
+        </div>
       </div>
     </div>
 
