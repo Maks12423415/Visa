@@ -8,7 +8,6 @@
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 50vh 50vh;
-  
 }
 
 #info {
@@ -29,13 +28,13 @@
 #karta {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 10.1vh; 
-  
+  grid-template-rows: 10.1vh;
+
   height: 300px;
   width: 500px;
   border-radius: 10px;
   border: black solid;
-  background-image: url('https://wykop.pl/cdn/c3201142/comment_lCCETisKK5crkpfEFg8o8cnUaJGSSdWY.jpg');
+  background-image: url("https://wykop.pl/cdn/c3201142/comment_lCCETisKK5crkpfEFg8o8cnUaJGSSdWY.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -44,7 +43,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: aqua;
+  color: white;
 }
 
 #imie {
@@ -52,14 +51,14 @@
   align-items: center;
   justify-content: space-between;
   padding: 15px;
-  color: aqua;
+  color: white;
 }
 
 #logo {
   display: flex;
   justify-content: space-between;
   padding: 10px;
-  color: aqua;
+  color: white;
 }
 
 #dat {
@@ -68,13 +67,30 @@
   justify-content: center;
 }
 
-.tło{
+.tło {
   border-radius: 50px;
   border: black solid 5px;
 }
 
-.input{
+.input {
   border-radius: 5px;
   border: black solid 2px;
 }
 
+/* HIDE RADIO */
+[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* IMAGE STYLES */
+[type="radio"] + img {
+  cursor: pointer;
+}
+
+/* CHECKED STYLES */
+[type="radio"]:checked + img {
+  outline: 2px solid rgb(83, 65, 184);
+}
