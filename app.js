@@ -44,10 +44,10 @@ function background1() {
   document.getElementById("karta").style.transition = "0.1s";
   document.getElementById("info").style.backgroundColor = "grey";
   document.getElementById("menu").style.backgroundColor = "lightgrey";
-  document.getElementById("h1").style.color = "darkblue";
-  document.getElementById("h2").style.color = "darkblue";
-  document.getElementById("h3").style.color = "darkblue";
-  document.getElementById("logo").style.color = "darkblue";
+  document.getElementById("h1").style.color = "black";
+  document.getElementById("h2").style.color = "black";
+  document.getElementById("h3").style.color = "black";
+  document.getElementById("logo").style.color = "black";
 }
 function background2() {
   document.getElementById("karta").style.backgroundImage =
